@@ -1,0 +1,183 @@
+.container .start {
+    font-size: 3.5vmin;
+    color: black;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+body {
+    margin: 0;
+    background: url('w2.jpg') center/cover no-repeat fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vmin;
+}
+
+.focus {
+    display: flex;
+    gap: 60px;
+}
+
+.focus2,
+.focus3,.focus1 {
+    font-size: 3.5vmin;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border: 0.5rem;
+}
+
+.timer {
+    color: white;
+    font-size: 5vmin;
+    width: 20rem;
+    height: 20rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start1 {
+    font-size: 3.5vmin;
+    color: black;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.start {
+    display: flex;
+    justify-content: center; /* Align items in the center horizontally */
+    gap: 35px; /* Adjust the gap between items */
+}
+
+.image-button {
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+    width: 40px;
+    padding: 0.7rem;
+}
+
+.image-button:hover {
+    border: 2px solid white;
+    transition: 0.3s;
+    border-radius: 100px;
+}
+
+.image-button1 {
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+    width: 40px;
+    padding: 0.7rem;
+}
+
+.image-button1:hover {
+    border: 2px solid white;
+    transition: 0.3s;
+    border-radius: 100px;
+}
+
+.focus2:hover,
+.focus3:hover,
+.focus1:hover {
+    border: 2px solid white;
+    transition: 0.3s;
+    border-radius: 100px;
+    padding: 0.4rem;
+}
+
+.min,
+.second {
+    color: white;
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    gap: 10px; 
+}
+
+
+.pausebutton{
+    cursor: pointer;
+    transition: 0.3s;
+    height: 50px;
+    width: 50px;
+    padding: 0.7rem;
+}
+
+.pausebutton:hover{
+    border: 2px solid white;
+    transition: 0.3s;
+    border-radius: 100px;
+}
+
+/* ... (previous styles) */
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 5vmin;
+    }
+
+    .focus1,
+    .focus2,
+    .focus3 {
+        font-size: 2.5vmin;
+    }
+
+    .timer {
+        width: 10rem;
+        height: 10rem;
+        margin: 0.5rem;
+    }
+
+    .start1 {
+        font-size: 2.5vmin;
+    }
+
+    .image-button,
+    .image-button1 {
+        height: 30px;
+        width: 30px;
+    }
+
+    .pausebutton {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+
+/* Responsive styles for different screen sizes */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for small screens */
+    .focus {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .timer {
+        width: 15rem;
+        height: 15rem;
+        margin: 1rem;
+    }
+
+    .start {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
