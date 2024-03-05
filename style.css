@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background: url('wallpaper.gif') center/cover no-repeat fixed;
+      /* Other background properties */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    /* font-size: large; */
+}
+#welcome{
+    /* text-align: center; */
+    padding: 45vmin;
+    text-align: center;
+    z-index: -1;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* @keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  } */
+
+  
+.next{
+    color: #fff;
+}
